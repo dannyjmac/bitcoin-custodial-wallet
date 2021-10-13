@@ -1,6 +1,4 @@
-# ln-backend
-Lightning network backend to manage a lighting connection, using supabase as a db.
+# Bitcoin Custodial Wallet with NodeJS
 
-- Allows you to connect and manage a node
-- Listens for payments
-- Can create an invoice
+- Uses supabase as a database to store user wallets, invoices, transactions etc
+- Connects to any lightning node running LND via TLS certificate, hostname and macaroon
